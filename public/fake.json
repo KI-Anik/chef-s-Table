@@ -1,0 +1,93 @@
+[
+    {
+      "recipe_image": "https://i.ibb.co.com/xsTNyxz/grilled-chicken-salad-lead-6628169550105.jpg",
+      "recipe_id": "1",
+      "recipe_name": "Grilled Chicken Salad",
+      "short_description": "A healthy and tasty salad with grilled chicken and fresh greens.",
+      "ingredients": [
+        "200 g chicken breast",
+        "50 g mixed greens",
+        "1 cucumber",
+        "10 cherry tomatoes",
+        "30 g feta cheese"
+      ],
+      "preparing_time": "25 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/6YgB3Zt/carbonara-horizontal-three-By-Two-Medium-At2-X-v2.jpg",
+      "recipe_id": "2",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with creamy sauce and pancetta.",
+      "ingredients": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 eggs",
+        "50 g Parmesan cheese",
+        "Salt and pepper"
+      ],
+      "preparing_time": "20 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/8jK29vp/veganbuddhabowl-2.jpg",
+      "recipe_id": "3",
+      "recipe_name": "Vegan Buddha Bowl",
+      "short_description": "A colorful bowl with a variety of fresh and roasted veggies.",
+      "ingredients": [
+        "100 g quinoa",
+        "50 g chickpeas",
+        "1 avocado",
+        "50 g spinach",
+        "1 sweet potato"
+      ],
+      "preparing_time": "30 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": " https://i.ibb.co.com/0rsCWLS/screenshot-2021-02-21-at-23-39-40.png",
+      "recipe_id": "4",
+      "recipe_name": "Tom Yum Soup",
+      "short_description": "Spicy and sour Thai soup with shrimp and mushrooms.",
+      "ingredients": [
+        "200 ml chicken broth",
+        "100 g shrimp",
+        "50 g mushrooms",
+        "1 lemongrass stalk",
+        "1 lime"
+      ],
+      "preparing_time": "20 min",
+      "calories": "180 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/c6XmpDk/Classic-Pancake-Recipe-11.jpg",
+      "recipe_id": "5",
+      "recipe_name": "Classic Pancakes",
+      "short_description": "Fluffy pancakes served with maple syrup and fresh berries.",
+      "ingredients": [
+        "100 g flour",
+        "200 ml milk",
+        "1 egg",
+        "20 g butter",
+        "1 tsp baking powder"
+      ],
+      "preparing_time": "15 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_image": "https://i.ibb.co.com/JFH0D9Q/korean-beef-stir-fry-1-14.jpg",
+      "recipe_id": "6",
+      "recipe_name": "Beef Stir Fry",
+      "short_description": "Quick and easy stir-fried beef with vegetables.",
+      "ingredients": [
+        "150 g beef strips",
+        "100 g bell peppers",
+        "50 g broccoli",
+        "30 ml soy sauce",
+        "1 garlic clove"
+      ],
+      "preparing_time": "20 min",
+      "calories": "350 calories"
+    }
+  ]
+  
