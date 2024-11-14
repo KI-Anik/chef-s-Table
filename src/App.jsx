@@ -3,6 +3,8 @@ import React from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import OurRecipes from './components/OurRecipes';
+import Recipies from './components/Recipies';
+import SidBar from './components/SidBar';
 
 const App = () => {
   return (
@@ -10,6 +12,10 @@ const App = () => {
       <Header></Header>
       <Banner></Banner>
       <OurRecipes></OurRecipes>
+      <section className='flex flex-col md:flex-row gap-6 mt-5'>
+        <Recipies></Recipies>
+        <SidBar></SidBar>
+      </section>
     </div>
   );
 };

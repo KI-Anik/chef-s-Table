@@ -7,7 +7,7 @@ const Banner = () => {
        style ={{
         backgroundImage: 'url(https://i.ibb.co.com/3kYtv41/banner.png)',
        }}>
-        <div className='w-9/12  text-white mx-auto p-10 space-y-6 md:w-1/2'>
+        <div className='w-9/12  text-white m-auto p-10 space-y-6 md:w-1/2'>
        <h1 className='text-3xl font-bold'>Discover an exceptional cooking class tailored for you!</h1>
        <p>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
        <div className='flex gap-5 mx-auto md:w-1/2'>
