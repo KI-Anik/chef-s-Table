@@ -27,6 +27,11 @@ const Recipies = () => {
                   <h2 className="card-title font-bold">{recipe.recipe_name}</h2>
                   <p className='text-gray-600'>{recipe.short_description}</p>
                   <h3 className='text-xl font-medium'>Ingredients: {recipe.ingredients.length}</h3>
+                  <p className='ml-8'>
+                    {
+                        recipe.ingredients.map((item, idx)=> <li key={idx}>{item}</li>)
+                    }
+                  </p>
                   <div className="card-actions justify-end">
                     <button className="btn btn-primary">Buy Now</button>
                   </div>
