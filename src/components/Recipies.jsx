@@ -39,7 +39,7 @@ const Recipies = ({p}) => {
                     </div>
                     <div className="flex items-center">
                     <i className="fa-solid fa-fire-flame-curved mr-2 text-2xl"></i>
-                    <p>{recipe.calories}</p>
+                    <p>{recipe.calories} calories</p>
                     </div>
                   </div>
                   <div className="mt-4">
