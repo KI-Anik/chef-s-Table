@@ -16,7 +16,7 @@ const Recipies = () => {
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
           {
             recipies.map(recipe => 
-                <div key={recipe.recipe_id} className="card bg-base-100 shadow-xl">
+                <div key={recipe.recipe_id} className="card bg-base-100 border-2">
                 <figure className='px-8 pt-6'>
                   <img
                   className='md:h-52 w-full object-cover rounded-xl'
@@ -32,8 +32,18 @@ const Recipies = () => {
                         recipe.ingredients.map((item, idx)=> <li key={idx}>{item}</li>)
                     }
                   </p>
-                  <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Buy Now</button>
+                  <div className="flex gap-5 mt-3">
+                    <div className="flex items-center">
+                    <i className='fa-regular fa-clock mr-2 text-2xl'></i>
+                    <p>{recipe.preparing_time}</p>
+                    </div>
+                    <div className="flex items-center">
+                    <i className="fa-solid fa-fire-flame-curved mr-2 text-2xl"></i>
+                    <p>{recipe.calories}</p>
+                    </div>
+                  </div>
+                  <div className="mt-4">
+                    <button className="btn btn-success rounded-full px-8 text-base">Want To Cook </button>
                   </div>
                 </div>
               </div>
