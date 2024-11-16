@@ -11,8 +11,8 @@
         "10 cherry tomatoes",
         "30 g feta cheese"
       ],
-      "preparing_time": "25 min",
-      "calories": "250"
+      "preparing_time": 25,
+      "calories": 250
     },
     {
       "recipe_image": "https://i.ibb.co.com/6YgB3Zt/carbonara-horizontal-three-By-Two-Medium-At2-X-v2.jpg",
@@ -26,8 +26,8 @@
         "50 g Parmesan cheese",
         "Salt and pepper"
       ],
-      "preparing_time": "20 min",
-      "calories": "400"
+      "preparing_time": 20,
+      "calories": 400
     },
     {
       "recipe_image": "https://i.ibb.co.com/8jK29vp/veganbuddhabowl-2.jpg",
@@ -41,8 +41,8 @@
         "50 g spinach",
         "1 sweet potato"
       ],
-      "preparing_time": "30 min",
-      "calories": "350"
+      "preparing_time": 30,
+      "calories": 350
     },
     {
       "recipe_image": " https://i.ibb.co.com/0rsCWLS/screenshot-2021-02-21-at-23-39-40.png",
@@ -56,8 +56,8 @@
         "1 lemongrass stalk",
         "1 lime"
       ],
-      "preparing_time": "20 min",
-      "calories": "180"
+      "preparing_time": 20,
+      "calories": 180
     },
     {
       "recipe_image": "https://i.ibb.co.com/c6XmpDk/Classic-Pancake-Recipe-11.jpg",
@@ -71,8 +71,8 @@
         "20 g butter",
         "1 tsp baking powder"
       ],
-      "preparing_time": "15 min",
-      "calories": "300"
+      "preparing_time": 15,
+      "calories": 300
     },
     {
       "recipe_image": "https://i.ibb.co.com/JFH0D9Q/korean-beef-stir-fry-1-14.jpg",
@@ -86,8 +86,8 @@
         "30 ml soy sauce",
         "1 garlic clove"
       ],
-      "preparing_time": "20 min",
-      "calories": "350"
+      "preparing_time": 20,
+      "calories": 350
     }
   ]
   

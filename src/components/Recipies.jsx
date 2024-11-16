@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 
@@ -35,7 +36,7 @@ const Recipies = ({p}) => {
                   <div className="flex gap-5 mt-3">
                     <div className="flex items-center">
                     <i className='fa-regular fa-clock mr-2 text-2xl'></i>
-                    <p>{recipe.preparing_time}</p>
+                    <p>{recipe.preparing_time} minutes</p>
                     </div>
                     <div className="flex items-center">
                     <i className="fa-solid fa-fire-flame-curved mr-2 text-2xl"></i>
