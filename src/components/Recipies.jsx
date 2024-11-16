@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 
-const Recipies = () => {
+const Recipies = ({p}) => {
     const [recipies,setrecipies] =useState([])
 
     useEffect(() => {
@@ -10,7 +10,7 @@ const Recipies = () => {
         .then(data => setrecipies(data))
     }
         ,[])
-        console.log(recipies)
+        // console.log(recipies)
     return (
         <div className='md:w-2/3'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
@@ -43,7 +43,7 @@ const Recipies = () => {
                     </div>
                   </div>
                   <div className="mt-4">
-                    <button className="btn btn-success rounded-full px-8 text-base">Want To Cook </button>
+                    <button onClick={() => p(recipe)} className="btn btn-success rounded-full px-8 text-base">Want To Cook </button>
                   </div>
                 </div>
               </div>
